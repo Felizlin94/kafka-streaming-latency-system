@@ -9,13 +9,8 @@ The system simulates real-time data ingestion and evaluates latency behavior und
 
 ## Architecture
 
-Producer  →  Kafka  →  Consumer
-                          ↓
-                   Latency Logger
-                          ↓
-                 Streaming Aggregator
-                          ↓
-                  Visualization Layer
+ <img width="1205" height="706" alt="圖" src="https://github.com/user-attachments/assets/71ee2e06-b866-492b-b0a4-bb7d440e1f6a" />
+                  
 
 ---
 
@@ -62,19 +57,18 @@ Producer  →  Kafka  →  Consumer
 ## Results
 
 ### Latency Over Time
-![Latency Plot](results/latency_plot.png)
+<img width="1000" height="500" alt="latency_plot" src="https://github.com/user-attachments/assets/eaac701c-3492-43d5-8024-0bd008b2e7b0" />
 
 ### Latency Distribution
-![Histogram](results/latency_histogram.png)
+<img width="800" height="500" alt="latency_histogram" src="https://github.com/user-attachments/assets/ac10aeb5-c08c-46cb-89bb-e9b57f676b8c" />
 
 ---
 
 ## How to Run
 
-```bash
-docker-compose up --build
-
-python scripts/plot_latency.py  (For generate plots:)
+Bash:
+1. docker-compose up --build
+2. python scripts/plot_latency.py 
 
 ---
 
