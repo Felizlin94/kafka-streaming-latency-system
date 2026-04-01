@@ -9,7 +9,7 @@ The system simulates real-time data ingestion and evaluates latency behavior und
 
 ## Architecture
 
-<img width="1000" height="585.9" alt="architecture" src="https://github.com/user-attachments/assets/db288482-a89d-493e-8492-7e1130f0451a" />
+<img width="500" height="297.95" alt="architecture" src="https://github.com/user-attachments/assets/db288482-a89d-493e-8492-7e1130f0451a" />
 
 ---
 
@@ -75,7 +75,7 @@ Bash:
 
 ## Output
 
-<img width="781" height="318" alt="results" src="https://github.com/user-attachments/assets/8809954a-e3c2-4679-a3b5-eae57f8a61d5" />
+<img width="390.5" height="159" alt="results" src="https://github.com/user-attachments/assets/8809954a-e3c2-4679-a3b5-eae57f8a61d5" />
 
 ---
 
