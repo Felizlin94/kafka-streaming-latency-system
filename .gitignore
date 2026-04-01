@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.env
+
+# results
+results/*.png
+results/*.csv
+
+# system
+.DS_Store
