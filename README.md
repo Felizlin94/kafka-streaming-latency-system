@@ -9,8 +9,7 @@ The system simulates real-time data ingestion and evaluates latency behavior und
 
 ## Architecture
 
- <img width="1205" height="706" alt="圖" src="https://github.com/user-attachments/assets/71ee2e06-b866-492b-b0a4-bb7d440e1f6a" />
-                  
+<img width="1000" height="585.9" alt="architecture" src="https://github.com/user-attachments/assets/db288482-a89d-493e-8492-7e1130f0451a" />
 
 ---
 
@@ -76,10 +75,7 @@ Bash:
 
 ## Output
 
-results/
- ├── latency_log.csv
- ├── latency_plot.png
- └── latency_histogram.png 
+<img width="781" height="318" alt="results" src="https://github.com/user-attachments/assets/8809954a-e3c2-4679-a3b5-eae57f8a61d5" />
 
 ---
 
